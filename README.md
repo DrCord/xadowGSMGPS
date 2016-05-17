@@ -1,1 +1,3 @@
 # xadowGSMGPS
+
+This project contains Arduino code to retrieve GPS location data and output via serial USB. It also will receive a text message containing "gps" (case-insensitive) and repsond with a text message with the same GPS output data. This is intended to be received by the [Raspberry Pi Parse GPS project](https://github.com/DrCord/piParseGPS) or to be used with a phone with text messaging capabilities and is a submodule of the [super-repository - NearSpace](https://github.com/DrCord/NearSpace).
