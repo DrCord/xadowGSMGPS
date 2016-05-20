@@ -121,6 +121,7 @@ void loop(){
       jsonOutput.printTo(Serial);
       // Use for debugging output.
       //jsonOutput.prettyPrintTo(Serial);
+      Serial.println();
       loopCounter = 0;     
     }
     else{
